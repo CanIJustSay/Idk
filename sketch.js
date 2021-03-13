@@ -505,7 +505,7 @@ if(dist(boy.x,boy.y,500,54)<=250){
 
 fill(0,0,0,100);
 rect(0,0,20000,20000);
-ghost.draw();
+
 boy.display();
 boy.breaking();
 fill("black");
